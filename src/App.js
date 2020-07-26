@@ -1,7 +1,8 @@
 import React from 'react';
-import Landing from './landing/Landing';
-import Signup from './Signup/Signup';
+import Landing from './pages/landing/Landing';
+import Signup from './pages/signup/Signup';
 import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
+import 'antd/dist/antd.css';
 
 function App() {
   
